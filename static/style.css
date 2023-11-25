@@ -181,3 +181,45 @@ body::-webkit-scrollbar {
   .section-bg{
     background-color: #e2e0f0 ;
   }
+  .cv .cv-title{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #19071f ;
+  }
+
+  .cv .cv-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left:2px solid #4D3A4E;
+    position: relative;
+  }
+
+  .cv .cv-item h4{
+    line-height: 18px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    
+    color: #19071f;
+    margin-bottom: 10px;
+  }
+
+  .cv .cv-item h5{
+    background: #e2e0f0;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .cv .cv-item::before{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #4D3A4E;
+    background: #ffff;
+    border-radius: 50% ;
+}

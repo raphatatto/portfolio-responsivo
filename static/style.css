@@ -178,3 +178,6 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-thumb {
     background-color: #410F33;    
   }
+  .section-bg{
+    background-color: #e2e0f0 ;
+  }

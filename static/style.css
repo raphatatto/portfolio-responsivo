@@ -51,6 +51,7 @@ html,body{
 }
 .nav-menu{
     padding: 1.5rem;
+    z-index: 100;
 
 }
 .nav-menu a ,
@@ -140,10 +141,10 @@ i.menu-mobile {
     justify-content: center;
     align-items: center;
 }
-.menu-nav-active {
+.menu-nav-active{
     overflow:hidden
 }
-.menu-nav-active #header {
+.menu-nav-active #header{
     left: 0;
 }
 @media (max-width: 1024px){
@@ -223,3 +224,40 @@ body::-webkit-scrollbar {
     background: #ffff;
     border-radius: 50% ;
 }
+.carousel-control-prev{
+    margin-left: -70px;
+
+}
+.carousel-control-next{
+    margin-right: -70px;
+}
+.carousel-indicators{
+    margin-bottom: -35px;
+}
+@media (max-width:1860px){
+    .carousel-control-prev{
+        margin-left: 0;
+    
+    }
+    .carousel-control-next{
+        margin-right: 0;
+    }
+}
+
+.card-group{
+    margin-right: 20rem;
+    margin-left: 20rem;
+}
+
+@media (max-width:1860px){
+    .card-group{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+  section{
+    z-index: 2;
+  } 
+
+
+
